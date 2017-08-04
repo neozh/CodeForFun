@@ -13,13 +13,8 @@ public class ArrayListMultiThread
 		{
 			for (int i = 0; i < 1000000 ; i++) 
 			{
-				crease( i);
+				al.add(i);
 			}
-		}
-		
-		static synchronized void crease(int i)
-		{
-			al.add(i);
 		}
 	}
 	
