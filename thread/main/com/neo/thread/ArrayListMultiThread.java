@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArrayListMultiThread 
 {
 	static ArrayList<Integer> al = new ArrayList<Integer>(10);
-	
+	// static Vector<Integer> al = new Vector<Integer>(10); //改进方法
 	public static class AddThread implements Runnable
 	{
 		@Override
