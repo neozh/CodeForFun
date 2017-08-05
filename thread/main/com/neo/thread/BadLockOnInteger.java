@@ -11,8 +11,8 @@ public class BadLockOnInteger implements Runnable
 		for (int i = 0; i < 10000000; i++) {
 			synchronized(index) //修改方法： index 换成 instance.
 			{
-			    //错误点: Integer的自增，只要数字不再 -127 到 128 之间，
-		            // 都会新创建一个新对象, 则锁对象实际上就变了。
+			    //错误点: Integer的自增，只要数字不在 -127 到 128 之间，
+		            // 就会新创建一个新的Integer对象, 则锁对象实际上就变了。
 			    index++;
 			}
 			
