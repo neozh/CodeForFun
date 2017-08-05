@@ -1,0 +1,19 @@
+1、线程和进程：
+    http://www.qnx.com/developers/docs/6.4.1/neutrino/getting_started/s1_procs.html
+2、ava线程的状态机
+    http://www.cnblogs.com/skywang12345/p/3479024.html
+3、何停止一个正在运行的java线程
+    http://ibruce.info/2013/12/19/how-to-stop-a-java-thread/
+4、JVM server client参数使用
+    http://www.uucode.net/201406/jvm-server-client-mode
+5、线程组的概念与使用:
+    http://ifeve.com/thread-management-11/
+6、守护进程：
+    http://blog.csdn.net/lcore/article/details/12280027
+7、HashMap 在多线程卡死的细节分析：
+    http://coolshell.cn/articles/9606.html
+8、不正确使用WeakHashMap引起的卡死:
+    http://www.uucode.net/201412/weakhashmap-endless-loop
+9、HashMap实现原理与Hash冲突:
+    http://www.uucode.net/201503/hashmap-hash-col
+    
